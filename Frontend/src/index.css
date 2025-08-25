@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 220px;
+  background-color: #4a90e2;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin: 0 0 20px;
+}
+
+.sidebar button {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #357ABD;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.order-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.order-card h3 {
+  margin: 0 0 10px;
+}
+
+.order-status button {
+  margin-right: 8px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.order-status button.active {
+  background-color: #4a90e2;
+  color: #fff;
+}
+
+.order-status button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.timeslot {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.timeslot.green { background-color: #4CAF50; }
+.timeslot.red { background-color: #f44336; }
+
+.profile-form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+}
+
+.profile-form button {
+  padding: 8px 16px;
+  background-color: #4a90e2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+

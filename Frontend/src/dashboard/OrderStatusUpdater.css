@@ -1,0 +1,64 @@
+.order-actions {
+  margin-top: 10px;
+  animation: fadeIn 0.6s ease-in;
+}
+
+.order-info {
+  margin-bottom: 10px;
+  background-color: #f0f8ff;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #cce;
+  animation: slideIn 0.5s ease;
+}
+
+.status-button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s;
+}
+
+.status-button:hover {
+  transform: scale(1.05);
+}
+
+.green {
+  background-color: #28a745;
+}
+
+.red {
+  background-color: #dc3545;
+}
+
+.blue {
+  background-color: #007bff;
+}
+
+.orange {
+  background-color: #fd7e14;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

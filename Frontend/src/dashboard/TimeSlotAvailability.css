@@ -1,0 +1,30 @@
+.time-slot-container {
+  margin-top: 20px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.slot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.slot-box {
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.slot-box.free {
+  background-color: green;
+}
+
+.slot-box.filled {
+  background-color: red;
+}
