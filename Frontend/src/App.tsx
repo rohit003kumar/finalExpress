@@ -2882,7 +2882,8 @@ const filteredServices = services.filter((service) => {
       {isLoggedIn && showLocationModal && (
         <div role="dialog" aria-modal="true" className="fixed inset-0 z-[9999] flex items-center justify-center bg-black/60 p-0 md:p-4">
 {/*           <div className="bg-white w-full h-[100vh] md:h-auto md:max-w-3xl md:rounded-lg shadow-xl p-0 md:p-4 overflow-y-auto max-h-[100vh]"> */}
-          <div className="bg-white w-full h-[100vh] md:h-auto md:max-w-3xl md:rounded-lg shadow-xl p-0 md:p-4 overflow-y-auto max-h-[100vh] mt-10 md:mt-0">
+<div className="bg-white w-full md:h-auto md:max-w-3xl md:rounded-lg shadow-xl p-0 md:p-4 overflow-y-auto min-h-screen max-h-[calc(100vh-2.5rem)] mt-10 md:mt-0">
+
 
             <div className="sticky top-0 z-10 flex items-center justify-between px-4 py-3 md:p-0 md:mb-2 border-b md:border-0 bg-white">
               <h2 className="text-lg font-semibold">Choose Your Delivery Location</h2>
