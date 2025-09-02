@@ -150,7 +150,8 @@ app.use(compression());
 const allowedOrigins = [
   "http://localhost:5173", // dev
     "http://localhost:4173", // vite preview
-  "https://cloths-frontend.onrender.com" // deployed frontend
+  // "https://cloths-frontend.onrender.com" // deployed frontend
+  "https://dhobiexpress-online-5h03.onrender.com"
 ];
 
 app.use(
